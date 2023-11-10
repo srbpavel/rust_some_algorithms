@@ -1,4 +1,4 @@
-###
+### CARGO
 cargo check
 cargo clippy
 cargo build
@@ -6,7 +6,7 @@ cargo test
 cargo run --example carp
 
 
-###
+### GIT
 git init
 git remote add origin https://github.com/srbpavel/rust_some_algorithms.git
 git fetch origin
@@ -23,3 +23,14 @@ git add src/strings/mod.rs
 git add src/strings/string_to_chars.rs
 git commit -a
 git push
+
+
+### DOC
+https://doc.rust-lang.org/rustdoc/index.html
+
+https://doc.rust-lang.org/book/ch14-02-publishing-to-crates-io.html#making-useful-documentation-comments
+
+https://doc.rust-lang.org/rust-by-example/meta/doc.html
+
+https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/documentation.html
+

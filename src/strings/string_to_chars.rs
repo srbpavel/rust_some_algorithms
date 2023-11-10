@@ -1,4 +1,16 @@
-//
+/// Transform &str to vector of chars
+///
+/// #Examples
+///
+/// ```
+/// use rust_some_algorithms::strings::string_to_chars;
+///
+/// let input = "keporkak";
+/// let output = vec!['k', 'e', 'p', 'o', 'r', 'k', 'a', 'k'];
+///
+/// let result = string_to_chars(input);
+/// assert_eq!(result, output);
+/// ```
 pub fn string_to_chars(s: &str) -> Vec<char> {
     s
         .chars()
