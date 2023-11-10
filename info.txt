@@ -1,5 +1,25 @@
+###
 cargo check
 cargo clippy
 cargo build
 cargo test
 cargo run --example carp
+
+
+###
+git init
+git remote add origin https://github.com/srbpavel/rust_some_algorithms.git
+git fetch origin
+git checkout -b main --track origin/main
+git reset origin/main
+
+git pull
+
+git add Cargo.toml
+git add info.txt 
+git add examples/carp.rs
+git add src/lib.rs
+git add src/strings/mod.rs
+git add src/strings/string_to_chars.rs
+git commit -a
+git push
